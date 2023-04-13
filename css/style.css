@@ -6,3 +6,7 @@ body{
 main{
     flex-grow: 1;
 }
+#input{
+    border: 2px solid #157347;
+    border-radius: 8px;
+}

@@ -32,15 +32,22 @@
     <main>
       <section class="container mt-5">
         <h1 class="text-center">Temporizador</h1>
+        <form class="text-center">
+            <p class="mt-5 fs-5">Ingrese el tiempo deseado</p>
+            <input class="" type="number" id="hora" placeholder="Hora">
+            <input class="" type="number" id="minutos" placeholder="Minuto">
+            <input class="" type="number" id="segundos" placeholder="Segundos">
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
         <h3 class="text-center" id="temporizador"></h3>
         <article class="text-center">
           <button type="button" class="btn btn-danger" id="iniciar">
             Iniciar
           </button>
-          <button type="button" class="btn btn-danger" id="iniciar">
+          <button type="button" class="btn btn-danger" id="pausar">
             Pausar
           </button>
-          <button type="button" class="btn btn-danger" id="iniciar">
+          <button type="button" class="btn btn-danger" id="reiniciar">
             Reiniciar
           </button>
         </article>
