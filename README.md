@@ -4,7 +4,7 @@ Se construye un temporaziador usando BOM
 
 ## Demo 🔗
 
-[Temporizador]() ✅
+[Temporizador](https://temporizadorrc.netlify.app/) ✅
 
 ## Herramientas 🛠️
 
