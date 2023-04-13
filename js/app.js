@@ -41,7 +41,8 @@ function mostrar(e) {
   temporizador.innerHTML = `${inputHora}:${inputMinutos}:${inputSegundos}.${inputMiliSegundos}`;
 }
 
-function escribir() {
+function escribir() {  
+
   if (inputMiliSegundos > -1) {
     temporizador.innerHTML = `${inputHora}:${inputMinutos}:${inputSegundos}.${inputMiliSegundos}`;
   }else{
@@ -71,6 +72,8 @@ function escribir() {
   if(inputHora == 0 && inputMinutos == 0 && inputSegundos == 0 && inputMiliSegundos == 0){
     clearInterval(tiempoInicio)
   }
+
+  
 
   inputMiliSegundos--;
 }
@@ -104,3 +107,4 @@ function reset(){
   inputMiliSegundos = 99;
   temporizador.innerHTML = `${inputHora}:${inputMinutos}:${inputSegundos}.${inputMiliSegundos}`;
 }
+

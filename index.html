@@ -32,14 +32,14 @@
     <main>
       <section class="container mt-5">
         <h1 class="text-center">Temporizador</h1>
-        <form class="text-center">
+        <form class="text-center d-flex flex-column d-md-block">
             <p class="mt-5 fs-5">Ingrese el tiempo deseado</p>
-            <input class="" type="number" id="hora" placeholder="Hora">
-            <input class="" type="number" id="minutos" placeholder="Minuto">
-            <input class="" type="number" id="segundos" placeholder="Segundos">
-            <button type="submit" class="btn btn-success">Enviar</button>
+            <input class="mt-2 mt-md-none" type="number" id="hora" placeholder="Hora">
+            <input class="mt-2 mt-md-none" type="number" id="minutos" placeholder="Minutos">
+            <input class="mt-2 mt-md-none" type="number" id="segundos" placeholder="Segundos">
+            <button type="submit" class="btn btn-success mt-2 mt-md-none">Enviar</button>
         </form>
-        <h3 class="text-center" id="temporizador"></h3>
+        <h1 class="text-center my-3 display-1" id="temporizador"></h1>
         <article class="text-center">
           <button type="button" class="btn btn-danger" id="iniciar">
             Iniciar
